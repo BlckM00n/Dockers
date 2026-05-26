@@ -26,8 +26,7 @@ Gracias al nombre de la máquina pude inferir que la técnica a utilizar sería 
 
 Probamos el parámetro:
 
-```sql
-admin' or 1=1-- -
+"admin' or 1=1-- -"
 
 Este payload permite omitir la verificación de contraseña y realizar un inicio de sesión sin necesidad de conocer la clave, siempre y cuando el backend no valide correctamente las entradas del usuario.
 
