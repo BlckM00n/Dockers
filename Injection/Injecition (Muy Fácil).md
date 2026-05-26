@@ -1,6 +1,6 @@
 Lo primero que hice fue realizar un escaneo general sobre la IP de la víctima para identificar qué puertos tenía abiertos.
 
-![Escaneo Nmap](Pasted image 20250727223236.png)
+![Escaneo Nmap] (Pasted image 20250727223236.png)
 
 Los parámetros utilizados son los siguientes:
 
