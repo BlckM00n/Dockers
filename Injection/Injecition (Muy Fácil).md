@@ -1,45 +1,87 @@
+# Injection
+
+> Máquina enfocada en la explotación de una vulnerabilidad de **SQL Injection**, obteniendo acceso inicial al sistema mediante bypass de autenticación y posterior acceso remoto por SSH.
+
+---
+
+# Reconocimiento
+
+## Escaneo Nmap
+
 Lo primero que hice fue realizar un escaneo general sobre la IP de la víctima para identificar qué puertos tenía abiertos.
 
 ![Escaneo Nmap](nmap.png)
 
-Los parámetros utilizados son los siguientes:
+### Comando utilizado
 
-- `-p-`: Escanea todos los 65535 puertos TCP, desde el 1 al 65535.
-- `--open`: Muestra solo los puertos abiertos, omitiendo los cerrados o filtrados.
-- `-sT`: Realiza un TCP Connect Scan (conexión completa utilizando el sistema operativo).
-- `--min-rate 5000`: Envía al menos 5000 paquetes por segundo para acelerar el escaneo.
-- `-vvv`: Muestra una salida muy detallada (modo verbose).
-- `-n`: No realiza resolución DNS.
-- `-Pn`: Asume que el host está activo sin realizar ping previo.
-- `172.17.0.2`: IP del objetivo.
-- `-oG allPorts`: Guarda los resultados en formato grepable dentro del archivo `allPorts`.
+sudo nmap -p- --open -sT --min-rate 5000 -vvv -n -Pn 172.17.0.2 -oG allPorts
 
-Con estos parámetros pude identificar que la víctima tenía abiertos los puertos 22 y 80, correspondientes a los servicios SSH y HTTP.
+### Parámetros utilizados
 
-Luego accedemos a la página web, donde nos encontramos con un panel de login.
+| Parámetro | Descripción |
+|---|---|
+| `-p-` | Escanea los 65535 puertos TCP |
+| `--open` | Muestra únicamente puertos abiertos |
+| `-sT` | Realiza un TCP Connect Scan |
+| `--min-rate 5000` | Aumenta la velocidad del escaneo |
+| `-vvv` | Modo verbose detallado |
+| `-n` | Evita resolución DNS |
+| `-Pn` | Asume que el host está activo |
+| `-oG allPorts` | Guarda resultados grepables |
+
+---
+
+# Puertos Identificados
+
+Gracias al escaneo pude identificar los siguientes servicios expuestos:
+
+| Puerto | Servicio |
+|---|---|
+| `22/tcp` | SSH |
+| `80/tcp` | HTTP |
+
+---
+
+# Enumeración Web
+
+Luego accedemos a la página web, donde encontramos un panel de login.
 
 ![Panel Login](Login.png)
 
-Gracias al nombre de la máquina pude inferir que la técnica a utilizar sería SQL Injection.
+Debido al nombre de la máquina, pude inferir que probablemente la vulnerabilidad principal estuviera relacionada con **SQL Injection**.
 
 ![SQL Injection](SQLi.png)
 
-Probamos el parámetro:
+---
 
-"admin' or 1=1-- -"
+# Explotación
 
-Este payload permite omitir la verificación de contraseña y realizar un inicio de sesión sin necesidad de conocer la clave, siempre y cuando el backend no valide correctamente las entradas del usuario.
+Probamos el siguiente payload:
+
+admin' or 1=1-- -
+
+Este payload permite omitir la validación de contraseña realizando un bypass del login.
 
 ![Bypass Login](SQLR.png)
 
-Gracias a esto pude bypassear el login de manera exitosa y obtener la contraseña del usuario Dylan.
+Gracias a esto logré acceder exitosamente y obtener las credenciales del usuario `Dylan`.
 
-Ahora, utilizando estas credenciales, intentamos realizar una conexión mediante SSH con el usuario y contraseña obtenidos.
+---
+
+# Acceso Inicial
+
+Con las credenciales obtenidas intentamos acceder mediante SSH.
 
 ![Conexion SSH](SSH.png)
 
-Listo, ya tenemos acceso al sistema mediante SSH. Ahora solamente quedaría realizar una escalada de privilegios para obtener acceso total al sistema.
+El acceso fue exitoso, obteniendo una shell interactiva dentro del sistema.
+
+---
+
+# Escalada de Privilegios
+
+Finalmente realizamos una escalada de privilegios para obtener control total del sistema.
 
 ![Escalada de Privilegios](Root.png)
 
-¡Hemos alcanzado el máximo nivel de privilegios en el sistema!
+# Máquina comprometida exitosamente ✅
