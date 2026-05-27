@@ -19,7 +19,7 @@ Máquina de dificultad **Fácil** donde explotamos un archivo PHP oculto, realiz
 
 nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn <IP> -oG allPorts
 
-📸 Captura: [AQUI_NMAP]
+![Nmap](Trust_nmap.png)
 
 ---
 
@@ -29,7 +29,7 @@ nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn <IP> -oG allPorts
 
 gobuster dir -u http://<IP> -w <WORDLIST> -x php,html,txt -t 20
 
-📸 Captura: [AQUI_GOBUSTER]
+![Gobuster](Gobuster_trust.png)
 
 ---
 
@@ -37,7 +37,7 @@ gobuster dir -u http://<IP> -w <WORDLIST> -x php,html,txt -t 20
 
 curl http://<IP>
 
-📸 Captura: [AQUI_CURL]
+![Curl](Curl_trust.png)
 
 ---
 
@@ -45,7 +45,7 @@ curl http://<IP>
 
 hydra -l mario -P <WORDLIST> ssh://<IP> -t 4
 
-📸 Captura: [AQUI_HYDRA]
+![Hydra](Hydra_trust.png)
 
 ---
 
@@ -53,7 +53,7 @@ hydra -l mario -P <WORDLIST> ssh://<IP> -t 4
 
 ssh mario@<IP>
 
-📸 Captura: [AQUI_SSH]
+![SSH](Ssh_trust.png)
 
 ---
 
@@ -72,7 +72,7 @@ sudo -l
 whoami  
 id  
 
-📸 Captura: [AQUI_ROOT]
+![Root](Root_trust.png)
 
 ---
 
