@@ -1,4 +1,3 @@
-
 # DockerLabs - Trust Walkthrough
 
 [![DockerLabs](https://img.shields.io/badge/DockerLabs-Trust-blue)](https://dockerlabs.es)
