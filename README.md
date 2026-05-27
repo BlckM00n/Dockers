@@ -81,16 +81,6 @@ Este proyecto tiene como finalidad:
 
 ---
 
-# 📈 GitHub Stats
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=BlckM00n&show_icons=true&theme=tokyonight&hide_border=true" />
-
-</p>
-
----
-
 # ⚠️ Disclaimer
 
 Este repositorio tiene fines únicamente educativos y de práctica en entornos controlados.  
