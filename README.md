@@ -4,20 +4,24 @@ Repositorio personal donde documento máquinas resueltas de DockerLabs utilizand
 
 ---
 
-## Contenido
+# 📚 Contenido
 
-Actualmente el repositorio contiene writeups de máquinas clasificadas por dificultad:
+## Cheatsheets
 
-### Máquinas completadas
-
-| Máquina | Dificultad | Estado |
-|----------|------------|---------|
-| Injection | Muy Fácil | ✅ |
-| Trust | Muy Fácil | ✅ |
+- [Pentest Cheatsheet](Pentest-Cheatsheet.md)
 
 ---
 
-## Objetivo del repositorio
+## Máquinas completadas
+
+| Máquina | Dificultad | Estado | Writeup |
+|----------|------------|---------|----------|
+| Injection | Muy Fácil | ✅ | [Ver](Injection/README.md) |
+| Trust | Muy Fácil | ✅ | [Ver](Trust/README.md) |
+
+---
+
+# 🎯 Objetivo del repositorio
 
 Este proyecto tiene como finalidad:
 
@@ -29,7 +33,7 @@ Este proyecto tiene como finalidad:
 
 ---
 
-## Herramientas utilizadas
+# 🛠 Herramientas utilizadas
 
 Algunas herramientas utilizadas durante los laboratorios:
 
@@ -39,27 +43,30 @@ Algunas herramientas utilizadas durante los laboratorios:
 - Netcat
 - Hydra
 - Burp Suite
+- FFUF
 - SSH
 - Linux
 
 ---
 
-## Entorno de trabajo
+# 💻 Entorno de trabajo
 
-- Sistema Operativo: Arch Linux
-- Editor de notas: Obsidian
-- Versionado: Git
-- Plataforma: GitHub
+| Herramienta | Uso |
+|---|---|
+| Arch Linux | Sistema Operativo Principal |
+| Obsidian | Documentación y notas |
+| Git | Control de versiones |
+| GitHub | Respaldo y publicación |
 
 ---
 
-## Disclaimer
+# ⚠️ Disclaimer
 
 Este repositorio tiene fines únicamente educativos y de práctica en entornos controlados.  
 No se promueve el uso de estas técnicas en sistemas sin autorización.
 
 ---
 
-# Autor
+# 👤 Autor
 
-- GitHub: BlckM00n
+- GitHub: [BlckM00n](https://github.com/BlckM00n)
