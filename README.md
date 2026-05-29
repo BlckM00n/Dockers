@@ -30,7 +30,7 @@ Repositorio personal de Writeups, Cheatsheets y notas de Pentesting.
 
 | Máquina | Dificultad | Estado | Writeup |
 |---|---|---|---|
-| Injection | 🟢 Fácil | ✅ | [Ver](Injection/Injection.md) |
+| Injection | 🟢 Fácil | ✅ | [Ver](Injection/Injecition.md) |
 | Trust | 🔵 Muy Fácil | ✅ | [Ver](Trust/Trust.md) |
 | BreakMySSH | 🔵 Muy Fácil | 🔄 | [Ver](BreakMySSH/BreakMySSH.md) |
 | FirstHacking | 🔵 Muy Fácil | ✅ | [Ver](FirstHacking/FirstHacking.md) |
