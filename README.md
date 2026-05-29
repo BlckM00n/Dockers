@@ -30,15 +30,15 @@ Repositorio personal de Writeups, Cheatsheets y notas de Pentesting.
 
 | Máquina | Dificultad | Estado | Writeup |
 |---|---|---|---|
-| Injection | 🔵 Fácil | ✅ | [Ver](Injection/Injection.md) |
-| Trust | 🟢 Muy Fácil | ✅ | [Ver](Trust/Trust.md) |
-| BreakMySSH | 🟢 Muy Fácil | 🔄 | [Ver](Trust/Trust.md) |
-| FirstHacking | 🟢 Muy Fácil | 🔄 | [Ver](Trust/Trust.md) |
-| HedgeHog | 🟢 Muy Fácil | 🔄 | [Ver](Trust/Trust.md) |
-| BoruzuarahCTF | 🟢 Muy Fácil | 🔄 | [Ver](Trust/Trust.md) |
-| Tproot | 🟢 Muy Fácil | 🔄 | [Ver](Trust/Trust.md) |
-| Vacaciones | 🟢 Muy Fácil | 🔄 | [Ver](Trust/Trust.md) |
-| Obsession | 🟢 Muy Fácil | 🔄 | [Ver](Trust/Trust.md) |
+| Injection | 🟢 Fácil | ✅ | [Ver](Injection/Injection.md) |
+| Trust | 🔵 Muy Fácil | ✅ | [Ver](Trust/Trust.md) |
+| BreakMySSH | 🔵 Muy Fácil | 🔄 | [Ver](BreakMySSH/BreakMySSH.md) |
+| FirstHacking | 🔵 Muy Fácil | 🔄 | [Ver](FirstHacking/FirstHacking.md) |
+| HedgeHog | 🔵 Muy Fácil | 🔄 | [Ver](HedgeHog/HedgeHog.md) |
+| BoruzuarahCTF | 🔵 Muy Fácil | 🔄 | [Ver](BoruzuwarahCTF/BoruzuwarahCTF.md) |
+| Tproot | 🔵 Muy Fácil | 🔄 | [Ver](Tproot/Tproot.md) |
+| Vacaciones | 🔵 Muy Fácil | 🔄 | [Ver](Vacaciones/Vacaciones.md) |
+| Obsession | 🔵 Muy Fácil | 🔄 | [Ver](Obsession/Obsession.md) |
 
 ---
 
