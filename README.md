@@ -18,39 +18,77 @@ Repositorio personal de Writeups, Cheatsheets y notas de Pentesting.
 
 ---
 
+# 🎯 Objetivo del repositorio
+
+Este proyecto tiene como finalidad:
+
+* Practicar técnicas de pentesting en entornos controlados.
+* Mejorar habilidades de enumeración y explotación.
+* Documentar procedimientos y metodologías utilizadas.
+* Mantener un registro organizado de laboratorios resueltos.
+* Utilizar Git y GitHub como sistema de versionado y respaldo.
+
+---
+
 # 📚 Contenido
 
 ## 🛠 Cheatsheets
 
-- [Pentesting Notes](DockerLabs/Pentesting-Notes.md)
+* [Pentesting Notes](Pentesting-Notes.md)
+
+---
+
+# 📂 Estructura del repositorio
+
+```text
+DockerLabs/
+├── Muy-Facil/
+├── Facil/
+├── Medio/
+├── Dificil/
+├── Pentesting-Notes.md
+└── README.md
+```
+
+---
+
+# 📊 Progreso
+
+| Dificultad   | Completadas | Pendientes |
+| ------------ | ----------- | ---------- |
+| 🔵 Muy Fácil | 8           | 0          |
+| 🟢 Fácil     | 1           | 21         |
+| 🟡 Medio     | 0           | 10         |
+| 🔴 Difícil   | 0           | 10         |
 
 ---
 
 # 🖥 Máquinas DockerLabs
 
-| Máquina | Dificultad | Estado | Writeup |
-|---|---|---|---|
-| Injection | 🟢 Fácil | ✅ | [Ver](Injection/Injecition.md) |
-| Trust | 🔵 Muy Fácil | ✅ | [Ver](Trust/Trust.md) |
-| BreakMySSH | 🔵 Muy Fácil | ✅ | [Ver](BreakMySSH/BreakMySSH.md) |
-| FirstHacking | 🔵 Muy Fácil | ✅ | [Ver](FirstHacking/FirstHacking.md) |
-| HedgeHog | 🔵 Muy Fácil | ✅ | [Ver](HedgeHog/HedgeHog.md) |
-| BoruzuwarahCTF | 🔵 Muy Fácil | ✅ | [Ver](BorazuwarahCTF/BorazuwarahCTF.md) |
-| Tproot | 🔵 Muy Fácil | ✅ | [Ver](Tproot/Tproot.md) |
-| Vacaciones | 🔵 Muy Fácil | ✅ | [Ver](Vacaciones/Vacaciones.md) |
-| Obsession | 🔵 Muy Fácil | ✅ | [Ver](Obsession/Obsession.md) |
+## 🔵 Muy Fácil
 
----
+* [Trust](Muy-Facil/Trust/Trust.md)
+* [BreakMySSH](Muy-Facil/BreakMySSH/BreakMySSH.md)
+* [FirstHacking](Muy-Facil/FirstHacking/FirstHacking.md)
+* [HedgeHog](Muy-Facil/HedgeHog/HedgeHog.md)
+* [BorazuwarahCTF](Muy-Facil/BorazuwarahCTF/BorazuwarahCTF.md)
+* [Tproot](Muy-Facil/Tproot/Tproot.md)
+* [Vacaciones](Muy-Facil/Vacaciones/Vacaciones.md)
+* [Obsession](Muy-Facil/Obsession/Obsession.md)
 
-# 🎯 Objetivo del repositorio
+## 🟢 Fácil
 
-Este proyecto tiene como finalidad:
+* [Injection](Facil/Injection/Injection.md)
 
-- Practicar técnicas de pentesting en entornos controlados.
-- Mejorar habilidades de enumeración y explotación.
-- Documentar procedimientos y metodologías utilizadas.
-- Mantener un registro organizado de laboratorios resueltos.
-- Utilizar Git y GitHub como sistema de versionado y respaldo.
+📂 Directorio completo: [Facil](Facil)
+
+## 🟡 Medio
+
+📂 Directorio completo: [Medio](Medio)
+
+## 🔴 Difícil
+
+📂 Directorio completo: [Dificil](Dificil)
 
 ---
 
@@ -64,32 +102,33 @@ Este proyecto tiene como finalidad:
 
 ### Herramientas frecuentes
 
-- Nmap
-- Gobuster
-- SQLMap
-- Hydra
-- FFUF
-- Burp Suite
-- Netcat
-- LinPEAS
-- SSH
+* Nmap
+* Gobuster
+* SQLMap
+* Hydra
+* FFUF
+* Burp Suite
+* Netcat
+* LinPEAS
+* SSH
 
 ---
 
 # 💻 Entorno de trabajo
 
-| Herramienta | Uso |
-|---|---|
-| Arch Linux | Sistema Operativo Principal |
-| Obsidian | Documentación y notas |
-| Git | Control de versiones |
-| GitHub | Respaldo y publicación |
+| Herramienta | Uso                         |
+| ----------- | --------------------------- |
+| Arch Linux  | Sistema Operativo Principal |
+| Obsidian    | Documentación y notas       |
+| Git         | Control de versiones        |
+| GitHub      | Respaldo y publicación      |
 
 ---
 
 # ⚠️ Disclaimer
 
-Este repositorio tiene fines únicamente educativos y de práctica en entornos controlados.  
+Este repositorio tiene fines únicamente educativos y de práctica en entornos controlados.
+
 No se promueve el uso de estas técnicas en sistemas sin autorización.
 
 ---
