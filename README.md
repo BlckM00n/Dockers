@@ -107,4 +107,4 @@ No se promueve el uso de estas técnicas en sistemas sin autorización.
 
 # 👤 Autor
 
-GitHub: BlckM00n
+BlckM00n
