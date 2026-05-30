@@ -38,9 +38,30 @@ Este proyecto tiene como finalidad:
 
 ---
 
+# 📊 Progreso
+
+| Dificultad   | Completadas | Total |
+| ------------ | ----------- | ----- |
+| 🔵 Muy Fácil | 8           | 8     |
+| 🟢 Fácil     | 1           | 22    |
+| 🟡 Medio     | 0           | 10    |
+| 🔴 Difícil   | 0           | 10    |
+
+---
+
+# 🖥 Máquinas DockerLabs
+
+| Categoría    | Directorio                 |
+| ------------ | -------------------------- |
+| 🔵 Muy Fácil | [Ver Máquinas](Muy-Facil/) |
+| 🟢 Fácil     | [Ver Máquinas](Facil/)     |
+| 🟡 Medio     | [Ver Máquinas](Medio/)     |
+| 🔴 Difícil   | [Ver Máquinas](Dificil/)   |
+
+---
+
 # 📂 Estructura del repositorio
 
-```text
 DockerLabs/
 ├── Muy-Facil/
 ├── Facil/
@@ -48,59 +69,10 @@ DockerLabs/
 ├── Dificil/
 ├── Pentesting-Notes.md
 └── README.md
-```
-
----
-
-# 📊 Progreso
-
-| Dificultad   | Completadas | Pendientes |
-| ------------ | ----------- | ---------- |
-| 🔵 Muy Fácil | 8           | 0          |
-| 🟢 Fácil     | 1           | 21         |
-| 🟡 Medio     | 0           | 10         |
-| 🔴 Difícil   | 0           | 10         |
-
----
-
-# 🖥 Máquinas DockerLabs
-
-## 🔵 Muy Fácil
-
-* [Trust](Muy-Facil/Trust/Trust.md)
-* [BreakMySSH](Muy-Facil/BreakMySSH/BreakMySSH.md)
-* [FirstHacking](Muy-Facil/FirstHacking/FirstHacking.md)
-* [HedgeHog](Muy-Facil/HedgeHog/HedgeHog.md)
-* [BorazuwarahCTF](Muy-Facil/BorazuwarahCTF/BorazuwarahCTF.md)
-* [Tproot](Muy-Facil/Tproot/Tproot.md)
-* [Vacaciones](Muy-Facil/Vacaciones/Vacaciones.md)
-* [Obsession](Muy-Facil/Obsession/Obsession.md)
-
-## 🟢 Fácil
-
-* [Injection](Facil/Injection/Injection.md)
-
-📂 Directorio completo: [Facil](Facil)
-
-## 🟡 Medio
-
-📂 Directorio completo: [Medio](Medio)
-
-## 🔴 Difícil
-
-📂 Directorio completo: [Dificil](Dificil)
 
 ---
 
 # 🛠 Herramientas utilizadas
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=linux,bash,git,github,docker,python,vscode" />
-
-</p>
-
-### Herramientas frecuentes
 
 * Nmap
 * Gobuster
@@ -135,12 +107,4 @@ No se promueve el uso de estas técnicas en sistemas sin autorización.
 
 # 👤 Autor
 
-<p align="center">
-
-<a href="https://github.com/BlckM00n">
-
-<img src="https://img.shields.io/badge/GitHub-BlckM00n-black?style=for-the-badge&logo=github">
-
-</a>
-
-</p>
+GitHub: BlckM00n
